@@ -1,0 +1,27 @@
+html {
+  background-color: #292e33;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .tableContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tableDivider {
+    width: 100% !important;
+  }
+
+  .fno-tab {
+    width: 100% !important;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+  
+  .pnc-tab {
+    width: 100% !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
