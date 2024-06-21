@@ -23,8 +23,8 @@ const fetchData1 = useCallback(async (date) => {
     try {
       const formattedDate = formatDateForAPI(date);
       const url = formattedDate
-        ? `http://192.168.1.41:5000/otr?date=${formattedDate}`
-        : `http://192.168.1.41:5000/otr`;
+        ? `http://13.201.2.46:5000/otr?date=${formattedDate}`
+        : `http://13.201.2.46:5000/otr`;
   
       const response = await fetch(url);
       // console.log("Fetching data 1 from:", url);
@@ -46,8 +46,8 @@ const fetchData1 = useCallback(async (date) => {
     try {
       const formattedDate = formatDateForAPI(date);
       const url = formattedDate
-        ? `http://192.168.1.41:5000/pnc?date=${formattedDate}`
-        : `http://192.168.1.41:5000/pnc`;
+        ? `http://13.201.2.46:5000/pnc?date=${formattedDate}`
+        : `http://13.201.2.46:5000/pnc`;
   
       const response = await fetch(url);
       // console.log("Fetching data 2 from:", url);
@@ -69,8 +69,8 @@ const fetchData1 = useCallback(async (date) => {
     try {
       const formattedDate = formatDateForAPI(date);
       const url = formattedDate
-        ? `http://192.168.1.41:5000/gsm?date=${formattedDate}`
-        : `http://192.168.1.41:5000/gsm?date=150624`;
+        ? `http://13.201.2.46:5000/gsm?date=${formattedDate}`
+        : `http://13.201.2.46:5000/gsm?date=150624`;
   
       const response = await fetch(url);
       // console.log("Fetching data 3 from:", url);
